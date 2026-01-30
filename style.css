@@ -1,0 +1,55 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  /* outline: 1px solid black; */
+  /* box-sizing: border-box; */
+}
+
+body {
+    background-color:rgb(109, 193, 248);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    max-width: 960px;
+    max-height: 960px;
+    min-width: 960px;
+    min-height: 960px;
+    outline: 2px solid black;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: center;
+    background-color: antiquewhite;
+    /* flex: 0 0 auto; */
+    /* align-items: stretch; */
+}
+
+.square {
+    box-sizing: border-box;
+    outline: solid 1px grey;
+    margin: 0;
+    padding: 0;
+    min-width: 0;
+}
+
+.nav-bar {
+    min-height: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    align-items: center;
+}
+
+.howManySquaresBtn {
+    padding: 5px 10px;
+    background-color: rgb(174, 174, 214);
+    color: black;
+    border-radius: 25px;
+}
